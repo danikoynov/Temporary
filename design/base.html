@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbershop</title>
+    <link rel="stylesheet" href="{{url_for('static', filename = 'styles.css')}}">
+
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">{{ content }}</div>
+            <nav>
+                <ul>
+                    <li><a href="about">About us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#reviews">Reviews</a></li>
+                    <li><a href="#contact">Contacts</a></li>
+                </ul>
+            </nav>
+            <div class="phone">+359 89 532 5454</div>
+        </div>
+    </header>
+    <section class="hero">
+    
+        <div class="content">
+            <h2>You can look cooler than you can imagine</h2>
+            <h1>BARBERSHOP</h1>
+            <a href="#appointment" class="btn">Book now</a>
+        </div>
+    </section>
+    <footer>
+        <p>"Suedinenie" 105 Street</p>
+        <div class="social-icons">
+            <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+            <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
+        </div>
+    </footer>
+</body>
+</html>

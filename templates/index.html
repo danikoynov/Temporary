@@ -1,0 +1,140 @@
+{% extends "base_navigation_bar.html" %}
+
+{% block addstyle %}
+    <link rel = "stylesheet" href="{{url_for('static', filename = 'content_styles.css')}}">
+    <link rel = "stylesheet" href="{{url_for('static', filename = 'footer.css')}}">
+    <link rel = "stylesheet" href="{{url_for('static', filename = 'location.css')}}">
+
+{% endblock %}
+
+{% block content %}
+
+    <!--Content section -->
+    <div class = "content" id = "content">
+        
+        
+        <div class = "phrase_text"> Вашият стил е наш дълг </div>
+        <div class = "barbershop_text" > BARBER STUDIO MAZZNU </div>
+        <a href = "https://www.fresha.com/bg/book-now/abc-and-co-s7oj7vzs/all-offer?share&pId=1479542" target="_blank">
+            <button class = "book_button"> Запази час  </button>
+        </a>
+        
+    </div>
+
+
+    <!--Buffer -->
+    <div class = "buffer"></div>
+
+    <!--Working hours -->
+    <div class = "working-hours-section" id = "working-hours">
+        <div style = "
+            font-family: Jost, sans-serif;
+            color: white;
+            font-size: 60px;
+            font-weight: 600;
+        "> Работно време</div>
+        
+        <div class = "working-hours-row">
+            <div class="working-hours-circle"> ПОНЕДЕЛНИК<br>8:00 - 19:00 </div>
+            <div class="working-hours-circle"> ВТОРНИК<br>8:00 - 19:00 </div>
+            <div class="working-hours-circle"> СРЯДА<br>8:00 - 19:00 </div>
+            <div class="working-hours-circle"> ЧЕТВЪРТЪК<br>8:00 - 19:00 </div>
+            <div class="working-hours-circle"> ПЕТЪК<br>8:00 - 19:00 </div>
+            <div class="working-hours-circle"> СЪБОТА<br>8:00 - 17:00 </div>
+            <div class="working-hours-circle"> НЕДЕЛЯ<br>8:00 - 17:00 </div>
+        </div>
+
+    </div>
+
+
+    <!-- I should add services with js -->
+    <!-- Services section -->
+    <section class="services" id = "services">
+        
+        <div class = "our-services-section">
+            <div class = "our-services-title"> 
+                <h1 class = "title">
+                        Нашите услуги
+                </h1>
+            </div>
+            <div class = "services-list" >
+                <div class = "single-service">
+                    <div class = "button-section" >
+                        <button class = "service_button"> Мъжко подстригване</button>
+                    </div>
+                    <div class = "service-text-section">
+                        <p class = "center-aligned-text   ">
+                        Перфектната прическа е не просто подстригване – тя е израз на вашия стил и характер. Нашите опитни бръснари ще ви предложат индивидуален подход и ще оформят вашата коса според най-новите тенденции или класически стилове.
+                        </p>
+
+                    </div>
+
+                    <div class = "price-text">
+                        <span class = "center-aligned-text">
+                            Цена: 20 лв
+                        </span>
+                    </div>
+                </div>
+
+
+                <div class = "single-service">
+                    <div class = "button-section" >
+                        <button class = "service_button"> Оформяне на брада</button>
+                    </div>
+                    <div class = "service-text-section">
+                        <p class = "center-aligned-text   ">
+                            Брадата е не просто част от визията – тя е израз на мъжественост и стил. Нашите професионални бръснари ще оформят брадата ви прецизно, подчертавайки най-добрите черти на лицето ви.
+                        </p>
+
+                    </div>
+
+                    <div class = "price-text">
+                        <span class = "center-aligned-text">
+                            Цена: 15 лв
+                        </span>
+                    </div>
+                </div>
+
+
+                <div class = "single-service">
+                    <div class = "button-section" >
+                        <button class = "service_button"> Стайлинг </button>
+                    </div>
+                    <div class = "service-text-section">
+                        <p class = "center-aligned-text   ">
+                            Перфектната визия не завършва само с подстригване – правилният стайлинг придава завършеност и подчертава вашия стил. В нашия барбершоп използваме професионални продукти за оформяне на косата и брадата, съобразени с вашия тип коса и желания резултат.
+                        </p>
+                    </div>
+
+                    <div class = "price-text">
+                        <span class = "center-aligned-text">
+                            Цена: 10 лв
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+
+
+    <div class = "buffer" style = "background-color: black;">
+
+    </div>
+
+    <div class = "location-section" id="location">
+        <div class = "location-title-section"> 
+            <h1 class = "title">
+                Къде може да ни намерите
+            </h1>
+        </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2905.105707668!2d26.940852099999997!3d43.2701612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40a58b007a1c3a87%3A0x5a8c3daeb8676383!2sMaZZnu%20Barber%20Studio!5e0!3m2!1sbg!2sbg!4v1740137277945!5m2!1sbg!2sbg" width="600" height="450" 
+        class = "maps" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    
+    {% block endcontent %}
+
+    {% endblock %}
+{% endblock %}

@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+.single-service {
+    display: flex;
+    flex-direction: column;
+    width: 350px;  /* Adjust width as needed */
+    height: 450px; /* Height is 1/3 of width */
+    border: 2px solid black; /* Thin black border */
+    display: flex;
+    /*justify-content: center;*/
+    align-items: center;
+    text-align: center;
+}
+
+
+.button-section{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    flex : 1;
+}
+.button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 12px 24px;  /* Adjust size */
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    border-radius: 5px; /* Slightly rounded corners */
+    transition: background-color 0.3s, transform 0.2s;
+    font-family: "Roboto", sans-serif;
+}
+
+/* Hover Effect */
+.button:hover {
+    background-color: #333; /* Darker black */
+    transform: scale(1.05); /* Slight zoom effect */
+}
+
+/* Active Effect (When Clicked) */
+.button:active {
+    background-color: #555;
+    transform: scale(0.98);
+}
+
+.service-text-section{
+    flex: 2;
+
+}
+
+.center-aligned-text {
+    text-align: center;
+    width: 90%;  /* Optional: Adjust width if needed */
+    margin: 0 auto; /* Centers the div itself, but text stays left */
+    padding: 10px;
+    color:#555;
+    font-family: Rubik, sans-serif;
+    font-size: 18px;
+}
+
+.price-text{
+    flex: 1;
+}
