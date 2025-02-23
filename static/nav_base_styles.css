@@ -55,7 +55,7 @@ header{
 }
 
 .nav__links li a:hover{
-    color: #00b4c8;
+    color: #ff9d00;
 }
 
 button{
@@ -70,4 +70,9 @@ button{
 
 button:hover{
     opacity: 0.85;
+}
+
+
+.social_media_icon{
+    width: 30%;
 }

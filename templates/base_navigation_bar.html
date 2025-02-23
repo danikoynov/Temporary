@@ -31,7 +31,12 @@
                 </ul>
             </nav> 
 
-            <a class = "cta" href = "#"> <button> Контакт </button> </a>
+            <!--<a class = "cta" href = "#"> <button> Контакт </button> </a>-->
+            <div style = "width: 10%; text-align: right;">
+                <a href = "https://www.facebook.com/groups/ShumenDnes/posts/9135280133231902/" target="_blank"><img src = "{{url_for('static', filename = 'images/facebook_icon.png')}}" class = "social_media_icon"> </a>
+                <a href = "https://www.instagram.com/mazznu.studio/" target="_blank"> <img src = "{{url_for('static', filename = 'images/instagram_icon.png')}}" class = "social_media_icon"> </a>
+            </div>
+        
         </header>
 
         {% block content %}
