@@ -1,0 +1,41 @@
+.working-hours-section{
+    background-color:rgb(0, 0, 0);
+    width: 100%;
+    height:450px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.working-hours-circle{
+
+   
+    width: 12%;
+    height: 150px;
+    border-radius: 10%;
+    /*background: #00b569;*/
+    background: #ff9d00;
+    color: white;
+    display: flex;
+    flex-direction: column; /* Arrange text in column */
+    justify-content: center; /* Center text vertically */
+    align-items: center; /* Center text horizontally */
+    text-align: center;
+    font-size: clamp(0.8rem, 1.2vw, 2rem);
+
+    font-weight: bold;
+    padding: 10px;
+    line-height: 1.2; /* Adjust line height to bring text a bit up */
+    font-family: Jost, sans-serif;
+}
+
+.working-hours-row{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: space-around;
+    align-content: center;
+}
+
