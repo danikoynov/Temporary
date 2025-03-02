@@ -85,6 +85,7 @@ button:hover{
     .header {
         height: 120px; /* Increase height */
         padding: 10px 20px; /* Add more padding */
+        background-color: aqua;
     }
     
     .a {
