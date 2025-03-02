@@ -88,12 +88,5 @@ button:hover{
         background-color: aqua;
     }
     
-    .a {
-        font-size: 18px; /* Increase text size */
-        padding: 10px 15px; /* Space out menu items */
-    }
-    
-    .logo {
-        height: 50px; /* Adjust logo size */
-    }
+
 }
