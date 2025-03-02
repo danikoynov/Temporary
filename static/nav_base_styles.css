@@ -83,7 +83,7 @@ button:hover{
 
 @media screen and (max-width: 768px) {
     .header {
-        height: 60px; /* Increase height */
+        height: 120px; /* Increase height */
         padding: 10px 20px; /* Add more padding */
     }
     
