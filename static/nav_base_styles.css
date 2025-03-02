@@ -81,12 +81,3 @@ button:hover{
 }
 
 
-@media screen and (max-width: 768px) {
-    .header {
-        height: 120px; /* Increase height */
-        padding: 10px 20px; /* Add more padding */
-        background-color: aqua;
-    }
-    
-
-}
