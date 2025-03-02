@@ -29,8 +29,10 @@ header{
     background-color: black;
     align-items: center;
     padding: 30px 5%;
-    height: 18vh;
 }
+
+
+
 
 .logo{
     width: 18%;
@@ -76,4 +78,21 @@ button:hover{
 
 .social_media_icon{
     width: 30%;
+}
+
+
+@media screen and (max-width: 768px) {
+    .header {
+        height: 60px; /* Increase height */
+        padding: 10px 20px; /* Add more padding */
+    }
+    
+    .a {
+        font-size: 18px; /* Increase text size */
+        padding: 10px 15px; /* Space out menu items */
+    }
+    
+    .logo {
+        height: 50px; /* Adjust logo size */
+    }
 }
